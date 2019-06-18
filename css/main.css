@@ -8079,6 +8079,11 @@ header {
       display: none;
       text-align: center;
       margin-left: 50px; } }
+  @media screen and (max-width: 576px) {
+    header .nav {
+      display: none;
+      text-align: center;
+      margin-left: 25px; } }
   header .Callout-Text {
     padding-top: 120px;
     font-size: 90px;
