@@ -7961,12 +7961,18 @@ a.text-dark:hover, a.text-dark:focus {
 
 @font-face {
   font-family: 'Yeseva One';
-  src: local("YesevaOne-Regular"), url("../fonts/YesevaOne-Regular.ttf") format("ttf");
+  src: local("Yeseva One"), url("../fonts/YesevaOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Aguafina_Script';
+  src: local("Aguafina_Script"), url("../fonts/Aguafina_Script/AguafinaScript-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 .yesevaone {
-  font-family: Yeseva One; }
+  font-family: Aguafina_Script; }
   @media screen and (max-width: 576px) {
     .yesevaone {
       font-size: 16px; } }
