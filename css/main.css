@@ -8083,7 +8083,7 @@ header {
     header .nav {
       display: none;
       text-align: center;
-      margin-left: 15px; } }
+      margin-left: -10px; } }
   header .Callout-Text {
     padding-top: 120px;
     font-size: 90px;
