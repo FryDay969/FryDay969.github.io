@@ -8027,7 +8027,7 @@ header {
   @media screen and (max-width: 576px) {
     header .logo {
       margin-left: 50px; } }
-  header .nav .nav-item {
+  header .nav .nav-item, header .nav li:nth-child(9), header .nav li:nth-child(8), header .nav li:nth-child(7) {
     opacity: 1;
     -webkit-transition: 5s;
     -o-transition: 5s;
