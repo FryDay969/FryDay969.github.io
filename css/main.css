@@ -7959,6 +7959,12 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+@font-face {
+  font-family: 'Yeseva One';
+  src: local("YesevaOne-Regular"), url("../fonts/YesevaOne-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+
 .yesevaone {
   font-family: Yeseva One; }
   @media screen and (max-width: 576px) {
