@@ -8027,7 +8027,10 @@ header {
   @media screen and (max-width: 576px) {
     header .logo {
       margin-left: 50px; } }
-  header .nav .nav-item, header .nav li:nth-child(9), header .nav li:nth-child(8), header .nav li:nth-child(7) {
+  header .nav .nav-item,
+  header .nav li:nth-child(9),
+  header .nav li:nth-child(8),
+  header .nav li:nth-child(7) {
     opacity: 1;
     -webkit-transition: 5s;
     -o-transition: 5s;
@@ -8062,12 +8065,12 @@ header {
             transform: translateX(0px);
     opacity: 1; } }
   header .nav li {
-    padding-top: 30px;
-    border-top: 2px solid transparent; }
+    padding-top: 30px; }
     header .nav li a {
       font-family: Gentium Book Basic;
       color: white;
-      font-size: 21px; }
+      font-size: 21px;
+      border-top: 2px solid transparent; }
       @media screen and (max-width: 992px) {
         header .nav li a:hover {
           border-top: 0px;
@@ -8090,15 +8093,18 @@ header {
       header .nav li:nth-child(7) a:hover {
         border-top: 2px solid transparent; }
   header .nav li:nth-child(8) {
-    padding-top: 40px; }
+    padding-top: 40px;
+    border-top: 0; }
     header .nav li:nth-child(8) a {
       color: #dab33e; }
       @media screen and (max-width: 992px) {
         header .nav li:nth-child(8) a:hover {
           border-top: 0px;
           background-color: transparent; } }
+      header .nav li:nth-child(8) a:hover {
+        border-top: 0px; }
     header .nav li:nth-child(8):hover {
-      border-top: 2px solid transparent; }
+      border-top: 0px; }
   header .nav li:nth-child(9) {
     padding-top: 40px; }
     header .nav li:nth-child(9) a {
@@ -8107,9 +8113,10 @@ header {
         header .nav li:nth-child(9) a:hover {
           border-top: 0px;
           background-color: transparent; } }
+      header .nav li:nth-child(9) a:hover {
+        border-top: 0px; }
     header .nav li:nth-child(9):hover {
-      border-top: 2px solid transparent;
-      background-color: transparent; }
+      border-top: 0px; }
   @media screen and (max-width: 992px) {
     header .nav {
       display: none;
@@ -8200,11 +8207,13 @@ header {
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat; }
-  .reservations .reserimg, .reservations .reserform {
+  .reservations .reserimg,
+  .reservations .reserform {
     margin-top: 100px;
     margin-bottom: 100px; }
     @media screen and (max-width: 1199px) {
-      .reservations .reserimg, .reservations .reserform {
+      .reservations .reserimg,
+      .reservations .reserform {
         margin-top: 50px;
         margin-bottom: 50px; } }
   .reservations .btn {
