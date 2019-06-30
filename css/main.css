@@ -8027,7 +8027,8 @@ header {
       margin: 25px 25px 25px 50px; } }
   @media screen and (max-width: 576px) {
     header .logo {
-      margin-left: 50px; } }
+      margin-left: 50px;
+      max-width: 50%; } }
   header .nav .nav-item,
   header .nav li:nth-child(9),
   header .nav li:nth-child(8),
@@ -8125,7 +8126,35 @@ header {
     header .nav {
       display: none;
       text-align: center;
-      margin-left: 50px; } }
+      margin-left: 50px;
+      opacity: 1;
+      -webkit-transform: translateX(0px);
+          -ms-transform: translateX(0px);
+              transform: translateX(0px);
+      -webkit-animation-name: test;
+              animation-name: test;
+      -webkit-animation-duration: 1.5s;
+              animation-duration: 1.5s;
+      -webkit-animation-iteration-count: 1;
+              animation-iteration-count: 1; }
+    @-webkit-keyframes test {
+      from {
+        -webkit-transform: translateX(-500px);
+                transform: translateX(-500px);
+        opacity: 0; }
+      to {
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+        opacity: 1; } }
+    @keyframes test {
+      from {
+        -webkit-transform: translateX(-500px);
+                transform: translateX(-500px);
+        opacity: 0; }
+      to {
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+        opacity: 1; } } }
   @media screen and (max-width: 576px) {
     header .nav {
       display: none;
