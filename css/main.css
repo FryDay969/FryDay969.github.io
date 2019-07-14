@@ -8207,6 +8207,9 @@ header {
   .ingridient .heading {
     font-family: Yeseva One;
     font-size: 36px; }
+    @media screen and (max-width: 576px) {
+      .ingridient .heading {
+        font-size: 24px; } }
   .ingridient .phttext {
     font-family: Lato;
     font-size: 16px; }
@@ -8215,6 +8218,10 @@ header {
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: rgba(0, 0, 0, 0.5); }
+  @media screen and (max-width: 576px) {
+    .ingridient {
+      padding-left: 15px;
+      padding-right: 15px; } }
 
 .menu {
   background-image: url(../img/bg2.png);
@@ -8236,6 +8243,15 @@ header {
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 70px 70px 70px 70px; }
+    @media screen and (max-width: 576px) {
+      .reviews .col-8 {
+        padding: 35px 35px 35px 35px; } }
+    @media screen and (max-width: 576px) {
+      .reviews .col-8 p {
+        font-size: 12px; } }
+    @media screen and (max-width: 576px) {
+      .reviews .col-8 span {
+        font-size: 12px; } }
 
 .reservations {
   background-image: url(../img/bg2.png);
